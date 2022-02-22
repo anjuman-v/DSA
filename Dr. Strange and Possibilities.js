@@ -35,7 +35,7 @@ function genSub(str, newStr, newCurr){
 
 
   
-  if (process.env.USERNAME === "") {
+  if (process.env.USERNAME === "ANJUMAN") {
       runProgram(`3`);
   } else {
     process.stdin.resume();
